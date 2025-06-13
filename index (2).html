@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spice Route - Indian Food Recipes</title>
+    <meta name="description" content="Discover authentic and delicious Indian recipes" />
+    <meta name="author" content="Spice Route" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Spice Route - Indian Food Recipes" />
+    <meta property="og:description" content="Discover authentic and delicious Indian recipes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <a href="/">Spice Route</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Discover the Rich Flavors of India</h1>
+          <p>Explore authentic Indian recipes passed down through generations</p>
+          <div class="hero-buttons">
+            <a href="#recipes" class="btn btn-primary">Explore Recipes</a>
+            <a href="#featured" class="btn btn-secondary">Featured Dishes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section" id="featured">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Recipes</h2>
+          <p>Our chef's special selections this week</p>
+        </div>
+        <div class="featured-recipes">
+          <div class="featured-recipe">
+            <div class="featured-image">
+              <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Chicken Tikka">
+            </div>
+            <div class="featured-content">
+              <h3>Chicken Tikka</h3>
+              <p>Marinated chicken chunks grilled to perfection, featuring our secret family blend of spices.</p>
+              <a href="#" class="btn btn-outline">View Recipe</a>
+            </div>
+          </div>
+          <div class="featured-recipe">
+            <div class="featured-image">
+              <img src="https://images.unsplash.com/photo-1695908485953-f2f9555b5bcf" alt="Masala Chai">
+            </div>
+            <div class="featured-content">
+              <h3>Masala Chai</h3>
+              <p>Traditional Indian spiced tea with cardamom, cinnamon and ginger that warms the soul.</p>
+              <a href="#" class="btn btn-outline">View Recipe</a>
+            </div>
+          </div>
+          <div class="featured-recipe">
+            <div class="featured-image">
+              <img src="https://images.pexels.com/photos/31249589/pexels-photo-31249589.jpeg" alt="Palak Paneer">
+            </div>
+            <div class="featured-content">
+              <h3>Palak Paneer</h3>
+              <p>Cottage cheese cubes in a creamy spinach gravy, a popular North Indian vegetarian dish.</p>
+              <a href="#" class="btn btn-outline">View Recipe</a>
+            </div>
+          </div>
+          <button class="carousel-arrow carousel-prev">❮</button>
+          <button class="carousel-arrow carousel-next">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipes" id="recipes">
+      <div class="container">
+        <div class="section-header">
+          <h2>Popular Recipes</h2>
+          <p>Discover our most loved Indian dishes</p>
+        </div>
+        <div class="recipe-grid" id="recipe-grid">
+          <!-- Recipe cards will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1589308078050-aa3fadaf54a7" alt="About Spice Route">
+          </div>
+          <div class="about-text">
+            <h2>Our Culinary Journey</h2>
+            <p>Spice Route began as a small family collection of recipes passed down through generations. Today, we are proud to share these authentic flavors with you.</p>
+            <p>Each recipe has been carefully tested and perfected to bring you the true essence of Indian cuisine, from the streets of Delhi to the coastal kitchens of Kerala.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Get New Recipes Weekly</h2>
+          <p>Subscribe to our newsletter and never miss our new recipes and cooking tips</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your Email Address" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <p>Have questions or suggestions? We'd love to hear from you!</p>
+        </div>
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Spice Route</h3>
+            <p>Bringing the flavors of India to your kitchen</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Categories</h4>
+              <ul>
+                <li><a href="#">Vegetarian</a></li>
+                <li><a href="#">Non-Vegetarian</a></li>
+                <li><a href="#">Street Food</a></li>
+                <li><a href="#">Desserts</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Connect</h4>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Spice Route. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
